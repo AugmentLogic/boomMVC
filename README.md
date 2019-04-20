@@ -1,11 +1,11 @@
-# boomMVC
+# boomPHP
 An ultra minimalist MVC for PHP
 
 ## Description
  - Bootstrap
- - Object oriented web application framework
- - Model view controller
- - Row data gateway implementation
+ - Object oriented web application framework (OOP)
+ - Model view controller (MVC)
+ - Row data gateway implementation (RDG)
  - Session handling
- - Extended PHP functions
+ - Extended PHP functions and resources
  - MySQL query generation
