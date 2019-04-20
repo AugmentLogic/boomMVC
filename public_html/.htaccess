@@ -1,24 +1,6 @@
 # public/.htaccess
 RewriteEngine On
 
-# allows these urls to be static but none other
-# RewriteEngine On
-# RewriteCond %{REQUEST_FILENAME} !admin/
-# RewriteCond %{REQUEST_FILENAME} !favicon.ico
-# RewriteCond %{REQUEST_FILENAME} !sitemap.xml
-# RewriteCond %{REQUEST_FILENAME} !static/
-# RewriteCond %{REQUEST_FILENAME} !robots.txt
-# RewriteRule . index.php [NC,L]
-
-# force https
-# RewriteCond %{HTTP_HOST} ^growthboot\.com [NC]
-# RewriteCond %{SERVER_PORT} 80
-# RewriteRule ^(.*)$ https://growthboot.com/$1 [R=301,L]
-
-# force no www
-# RewriteCond %{HTTP_HOST} ^www.growthboot.com
-# RewriteRule (.*) https://growthboot.com/$1 [R=301,L]
-
 # load the index file
 RewriteCond %{REQUEST_FILENAME} -s [OR]
 RewriteCond %{REQUEST_FILENAME} -l [OR]
